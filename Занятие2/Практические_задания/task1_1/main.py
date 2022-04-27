@@ -2,11 +2,11 @@ import sys
 
 
 if __name__ == "__main__":
-    squares_gen = (x * x for x in range(1000000))  # выражение генератор
-    print(f"Размер выражения генератора: {sys.getsizeof(squares_gen)}")
+    squares_gen = (x + x for x in range(1000000))  # выражение генератор
+    print(f"Размер выражения генератора: {sys.getsizeof(squares_gen)} байт")
 
-    squares_list = [x * x for x in range(1000000)]  # list comprehension
-    print(f"Размер списка: {sys.getsizeof(squares_list)}")
+    squares_list = [x + x for x in range(1000000)]  # list comprehension
+    print(f"Размер списка: {sys.getsizeof(squares_list)} байт")
 
     print("-" * 10)
 

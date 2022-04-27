@@ -1,5 +1,11 @@
+from itertools import count
+
+
 def pow_gen(base: int):
-    ...  # TODO записать функцию-генератор
+    n = 0  # записать функцию-генератор
+    while True:
+        yield base ** n
+        n += 1
 
 
 if __name__ == "__main__":
