@@ -49,5 +49,11 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: output.pickle
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 06 May 2022 16:02:28 UTC
 record: -1
