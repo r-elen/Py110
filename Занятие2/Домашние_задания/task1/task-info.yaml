@@ -1,5 +1,8 @@
 type: theory
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   text: |2
@@ -9,9 +12,8 @@ files:
         # Write your solution here
         pass
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 status: Solved
+feedback:
+  time: Tue, 10 May 2022 13:25:10 UTC
 record: -1
 post_submission_on_open: true

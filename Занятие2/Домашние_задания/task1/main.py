@@ -9,6 +9,6 @@ if __name__ == "__main__":
     for _ in range(5):
         print(next(my_count))
 
-    sum_ = 0
-    while sum_ < 1.8:
-        sum += next(my_count)
+    # sum_ = 0
+    # while sum_ < 1.8:
+    #     sum += next(my_count)
