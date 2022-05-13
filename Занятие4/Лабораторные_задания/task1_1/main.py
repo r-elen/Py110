@@ -2,7 +2,7 @@ import json
 import re
 
 BOOKS_FILE = "books.md"
-BOOK_REGEX = ...  # TODO записать ругулярное выражения для поиска книги
+BOOK_REGEX = r'#{4}\s(?P<position>\d+)\.\s\[(?P<book>(.+?))\]\((?P<book_url>https?:\/\/\w+.\w+\/\w+)\)\sby\s?(?P<author>.+?)\s\((?P<recommended>\d+.\d+%)\s\w+\)\s+\!\[\]\((?P<cover_url>https?:.+?\#\w+)\)\s+\"\s?(?P<description>.+?)\"'  # записать ругулярное выражения для поиска книги
 
 
 def task():
