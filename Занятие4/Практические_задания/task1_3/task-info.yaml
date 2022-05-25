@@ -7,13 +7,13 @@ files:
   visible: true
   placeholders:
   - offset: 156
-    length: 52
+    length: 44
     placeholder_text: '...)  # TODO используйте запоминающие группы'
     initial_state:
       length: 44
       offset: 156
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: r"@(\w+)\.(\w+)")
   text: |
@@ -36,7 +36,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Fri, 13 May 2022 16:52:06 UTC
+  time: Wed, 25 May 2022 15:17:28 UTC
   actual: |
     [('gmail', 'com'), ('test', 'in'), ('analyticsvidhya', 'com'), ('rest', 'biz')]
 record: -1

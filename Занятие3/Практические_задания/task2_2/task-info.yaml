@@ -10,15 +10,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 415
-    length: 122
+  - offset: 395
+    length: 85
     placeholder_text: 'print(python_obj)  # TODO распечатать объект как JSON строку
       с отступами и кодировкой'
     initial_state:
       length: 85
       offset: 395
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: print(json.dumps(python_obj, indent=4, ensure_ascii=False))
   text: |
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 15:46:07 UTC
+  time: Wed, 25 May 2022 15:15:37 UTC
 record: -1

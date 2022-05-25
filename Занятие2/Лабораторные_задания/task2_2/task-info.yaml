@@ -14,6 +14,9 @@ files:
     14.0
     14.5
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
@@ -39,9 +42,6 @@ files:
         my_count = count(10, 0.5)
         for _ in range(10):
             print(next(my_count))
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 status: Solved
 feedback:

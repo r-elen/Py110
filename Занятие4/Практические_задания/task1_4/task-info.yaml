@@ -14,13 +14,13 @@ files:
   visible: true
   placeholders:
   - offset: 144
-    length: 109
+    length: 66
     placeholder_text: '...)  # TODO записать регулярное выражение с именованными группами'
     initial_state:
       length: 66
       offset: 144
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: r"(?P<day>\d\d)-(?P<mounth>\d\d)-(?P<year>\d\d\d\d)")
   text: |
@@ -45,5 +45,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 13 May 2022 17:01:12 UTC
+  time: Wed, 25 May 2022 15:17:40 UTC
 record: -1

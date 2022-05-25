@@ -15,24 +15,24 @@ files:
   visible: true
   placeholders:
   - offset: 225
-    length: 84
+    length: 83
     placeholder_text: '...)  # TODO составить регулярное выражение, которое находит
       первые две буквы слова'
     initial_state:
       length: 83
       offset: 225
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: r"\b\w\w")
-  - offset: 354
-    length: 108
+  - offset: 359
+    length: 49
     placeholder_text: ')  # TODO найти первые 2 буквы всех слов в строке'
     initial_state:
       length: 49
       offset: 359
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: .findall(word))
   text: |
@@ -65,5 +65,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 13 May 2022 15:38:48 UTC
+  time: Wed, 25 May 2022 15:17:20 UTC
 record: -1

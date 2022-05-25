@@ -20,23 +20,23 @@ files:
   visible: true
   placeholders:
   - offset: 52
-    length: 86
+    length: 60
     placeholder_text: '{}  # TODO c помощью dict comprehension сформировать словарь'
     initial_state:
       length: 60
       offset: 52
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '{i: i ** 2 for i in range(1, 11)}'
-  - offset: 150
-    length: 71
+  - offset: 124
+    length: 45
     placeholder_text: '...  # TODO сеализовать словарь в JSON строку'
     initial_state:
       length: 45
       offset: 124
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: json.dumps(dict_numbers, indent=4)
   text: |
@@ -57,5 +57,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 06 May 2022 17:06:05 UTC
+  time: Wed, 25 May 2022 15:21:02 UTC
 record: -1
